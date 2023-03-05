@@ -87,17 +87,16 @@ public class Hero : MonoBehaviour {
 
         Enemy enemy = go.GetComponent<Enemy>();
         PowerUp pUp = go.GetComponent<PowerUp>();
-        EnemyProjectile  proj = go.GetComponent<EnemyProjectile>();
 
-        if (pUp != null)
-        {
-            // If the shield was triggered by a PowerUp
-            AbsorbPowerUp(pUp);
-        }
-        else if(enemy != null || proj != null)
+        if(enemy != null)
         {
             shieldLevel--;
             Destroy(go);
+        }
+        else if (pUp != null)
+        {
+            // If the shield was triggered by a PowerUp
+            AbsorbPowerUp(pUp);
         }
         else
         {

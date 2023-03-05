@@ -12,9 +12,7 @@ public class Enemy : MonoBehaviour
     public float health = 10;
     public int score = 100; // Points earned for destroying this
     public float showDamageDuration = 0.1f; // # seconds to show damage
-    public float powerUpDropChance = 1f; // Chance to drop a power-up\
-
-    
+    public float powerUpDropChance = 1f; // Chance to drop a power-up
 
     [Header("Set Dynamically: Enemy")]
     public Color[] originalColors;

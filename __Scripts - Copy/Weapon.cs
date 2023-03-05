@@ -16,7 +16,6 @@ public enum eWeaponType
     missile, // [NI] Homing missiles
     laser, // [NI] Damage over time
     shield // Raise shieldLevel
-    
 }
 
 /// <summary>
@@ -144,22 +143,7 @@ public class Weapon : MonoBehaviour
                 p = MakeProjectile(); // Make left Projectile
                 p.transform.rotation = Quaternion.AngleAxis(-10, Vector3.back);
                 p.vel = p.transform.rotation * vel;
-                p = MakeProjectile(); // Make right Projectile
-                p.transform.rotation = Quaternion.AngleAxis(20, Vector3.back);
-                p.vel = p.transform.rotation * vel;
-                p = MakeProjectile(); // Make left Projectile
-                p.transform.rotation = Quaternion.AngleAxis(-20, Vector3.back);
-                p.vel = p.transform.rotation * vel;
                 break;
-
-            case eWeaponType.laser:
-                p = MakeProjectile();
-                p.vel = vel;
-                
-                break;
-
-            
-                
         }
     }
 

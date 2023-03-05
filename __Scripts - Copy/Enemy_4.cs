@@ -67,7 +67,6 @@ public class Enemy_4 : Enemy
     ///   to enable protection by EnemyShields.
     /// </summary
     /// <param name="coll"</param
-    
     void OnCollisionEnter(Collision coll)
     {                                  // b
         GameObject otherGO = coll.gameObject;

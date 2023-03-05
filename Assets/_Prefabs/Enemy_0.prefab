@@ -112,6 +112,21 @@ MonoBehaviour:
   showingDamage: 0
   damageDoneTime: 0
   notifiedOfDestruction: 0
+  def:
+    type: 1
+    letter: 
+    color: {r: 1, g: 0, b: 0.88550186, a: 1}
+    weaponModelPrefab: {fileID: 1899541879965282, guid: c8f06e88a059fa049984946081b05fc3,
+      type: 3}
+    projectileColor: {r: 1, g: 0, b: 0.88169384, a: 1}
+    damageOnHit: 1
+    continuousDamage: 0
+    delayBetweenShots: 1
+    velocity: 20
+  collar: {fileID: 0}
+  nextShotTime: 1
+  weaponModel: {fileID: 1899541879965282, guid: c8f06e88a059fa049984946081b05fc3,
+    type: 3}
 --- !u!114 &-20014221293065156
 MonoBehaviour:
   m_ObjectHideFlags: 0
