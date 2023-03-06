@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -512,12 +512,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnEnemies: 1
   prefabEnemies:
-  - {fileID: 8354716305585902020, guid: a69aa768d15cba34b96a5422e50dc9b4, type: 3}
-  - {fileID: 8354716305585902020, guid: a69aa768d15cba34b96a5422e50dc9b4, type: 3}
-  - {fileID: 8354716305585902020, guid: a69aa768d15cba34b96a5422e50dc9b4, type: 3}
-  - {fileID: 8354716305585902020, guid: a69aa768d15cba34b96a5422e50dc9b4, type: 3}
-  - {fileID: 8354716305585902020, guid: a69aa768d15cba34b96a5422e50dc9b4, type: 3}
-  - {fileID: 8354716305585902020, guid: a69aa768d15cba34b96a5422e50dc9b4, type: 3}
+  - {fileID: 8000287592821287165, guid: 9a7badcc677009643b517fd223eb2cb4, type: 3}
+  - {fileID: 8000287592821287165, guid: 9a7badcc677009643b517fd223eb2cb4, type: 3}
+  - {fileID: 8000287592821287165, guid: 9a7badcc677009643b517fd223eb2cb4, type: 3}
+  - {fileID: 8000287592821287165, guid: 9a7badcc677009643b517fd223eb2cb4, type: 3}
+  - {fileID: 8000287592821287165, guid: 9a7badcc677009643b517fd223eb2cb4, type: 3}
+  - {fileID: 8000287592821287165, guid: 9a7badcc677009643b517fd223eb2cb4, type: 3}
   - {fileID: 3319825933102930435, guid: ac8336763c0c047aca9a469c10d3f448, type: 3}
   - {fileID: 3319825933102930435, guid: ac8336763c0c047aca9a469c10d3f448, type: 3}
   - {fileID: 3319825933102930435, guid: ac8336763c0c047aca9a469c10d3f448, type: 3}
@@ -574,13 +574,13 @@ MonoBehaviour:
   - type: 7
     letter: O
     color: {r: 0.972549, g: 0.93362075, b: 0.019607825, a: 1}
-    weaponModelPrefab: {fileID: 1899541879965282, guid: 6d6a20f89321d8d4cbf0088a406a5003,
+    weaponModelPrefab: {fileID: 1899541879965282, guid: c8f06e88a059fa049984946081b05fc3,
       type: 3}
     projectileColor: {r: 0.96862745, g: 0.9093719, b: 0.023529429, a: 1}
     damageOnHit: 100
     continuousDamage: 0
     delayBetweenShots: 2
-    velocity: 15
+    velocity: -50
   prefabPowerUp: {fileID: 1062273549804748, guid: 9649a9a79085a854d9990613a980f435,
     type: 3}
   powerUpFrequency: 01000000020000000500000006000000

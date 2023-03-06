@@ -76,16 +76,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c4ce925c64fe0b428015d3d554582fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _type: 2
+  _type: 7
   def:
-    type: 0
-    letter: 
-    color: {r: 1, g: 1, b: 1, a: 1}
-    weaponModelPrefab: {fileID: 0}
-    projectileColor: {r: 1, g: 1, b: 1, a: 1}
-    damageOnHit: 0
+    type: 7
+    letter: O
+    color: {r: 0.972549, g: 0.93362075, b: 0.019607825, a: 1}
+    weaponModelPrefab: {fileID: 1899541879965282, guid: c8f06e88a059fa049984946081b05fc3,
+      type: 3}
+    projectileColor: {r: 0.96862745, g: 0.9093719, b: 0.023529429, a: 1}
+    damageOnHit: 100
     continuousDamage: 0
-    delayBetweenShots: 0
-    velocity: 20
+    delayBetweenShots: 2
+    velocity: -15
   collar: {fileID: 0}
   nextShotTime: 0

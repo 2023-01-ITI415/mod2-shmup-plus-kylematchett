@@ -15,7 +15,8 @@ public enum eWeaponType
     phaser, // [NI] Shots that move in waves
     missile, // [NI] Homing missiles
     laser, // [NI] Damage over time
-    shield // Raise shieldLevel
+    shield, // Raise shieldLevel
+    enemyBlaster
     
 }
 
@@ -77,6 +78,7 @@ public class Weapon : MonoBehaviour
 
         Hero hero = GetComponentInParent<Hero>();
         if (hero != null) hero.fireEvent += Fire;
+        
 
     }
 
@@ -158,6 +160,10 @@ public class Weapon : MonoBehaviour
                 
                 break;
 
+            case eWeaponType.enemyBlaster:
+                p = MakeProjectile();
+                p.vel = vel;
+                break;
             
                 
         }
