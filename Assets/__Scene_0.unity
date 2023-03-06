@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -538,9 +538,9 @@ MonoBehaviour:
     weaponModelPrefab: {fileID: 1899541879965282, guid: f6d376ce38407364cb384aeaec802393,
       type: 3}
     projectileColor: {r: 1, g: 1, b: 1, a: 1}
-    damageOnHit: 5
+    damageOnHit: 3
     continuousDamage: 0
-    delayBetweenShots: 0.25
+    delayBetweenShots: 0.15
     velocity: 50
   - type: 2
     letter: S
@@ -567,7 +567,7 @@ MonoBehaviour:
     weaponModelPrefab: {fileID: 1899541879965282, guid: 59a4640edad59f94a87c1d235355cb6a,
       type: 3}
     projectileColor: {r: 0.96862745, g: 0.1209574, b: 0.023529429, a: 1}
-    damageOnHit: 0.1
+    damageOnHit: 0.4
     continuousDamage: 0
     delayBetweenShots: 0.01
     velocity: 100

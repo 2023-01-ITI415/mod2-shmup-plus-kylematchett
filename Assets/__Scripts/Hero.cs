@@ -94,7 +94,7 @@ public class Hero : MonoBehaviour {
             // If the shield was triggered by a PowerUp
             AbsorbPowerUp(pUp);
         }
-        else if(enemy != null || other.tag == "Enemy")
+        else if(enemy != null || other.tag == "ProjectileEnemy")
         {
             shieldLevel--;
             Destroy(go);

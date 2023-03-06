@@ -146,6 +146,7 @@ MonoBehaviour:
   notifiedOfDestruction: 0
   ProjectilePrefab: {fileID: 1899541879965282, guid: c8f06e88a059fa049984946081b05fc3,
     type: 3}
+  shotsPerSecond: 0.25
 --- !u!114 &7156136453981967621
 MonoBehaviour:
   m_ObjectHideFlags: 0
