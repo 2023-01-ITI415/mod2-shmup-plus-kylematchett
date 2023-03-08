@@ -25,3 +25,4 @@ damage: 3
 
 these changes makes the blaster feel a bit balanced but time to kill enemies is still pretty quick.
 the spread is able to one shot if up close and the fire rate is slower so it can't be done as quickly.
+I added a gun that shoots projectiles extremely fast but do less damage for each shot, and I made Enemy 0 (the one that just goes straight) able to shoot back at the player.
